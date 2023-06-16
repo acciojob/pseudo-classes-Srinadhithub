@@ -1,1 +1,24 @@
 /*  your css code here. If applicable */
+*{
+	margin:3px;
+}
+body{
+	background-color:skyblue;
+}
+ul{
+	width:300px;
+	margin-left:-10px;
+	
+}
+li{
+	padding:5px;
+}
+li:nth-child(even){
+	background-color:slategray;
+}
+li:nth-child(odd){
+	background-color:white;
+}
+li:nth-child(3){
+	background-color:pink;
+}
